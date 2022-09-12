@@ -4,7 +4,8 @@
   "description": "carbonrecord.org",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"carbonrecord.org\" && exit 0"
+    "test": "echo \"carbonrecord.org\" && exit 0",
+    "test-main": "node test/main.js"
   },
   "repository": {
     "type": "git",

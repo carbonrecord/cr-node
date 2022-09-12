@@ -12,6 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module.exports = {
-		now:async function() { return 'v0.0.3:' + Date.now(); }
-	};
+'use strict';
+
+const path = require('path');
+
+const cr_node_common = require(path.resolve(__dirname, '..', 'lib', 'cr-node-common'));
+
+module.exports = { now:cr_node_common.now };
