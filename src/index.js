@@ -13,5 +13,5 @@
 // limitations under the License.
 
 module.exports = {
-		now:async function() { return Date.now(); }
+		now:async function() { return 'v0.0.2: ' + Date.now(); }
 	};
